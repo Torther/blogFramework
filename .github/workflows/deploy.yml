@@ -38,7 +38,7 @@ jobs:
       - name: Checkout source
         run: |
           rm -rf source
-          git clone https://github.com/Torther/blogFramework.git source
+          git clone git@github.com:Torther/blogPrivate.git source
           rm -rf ./source/.git
           rm -rf ./source/.github
           rm -rf ./_config.yml
