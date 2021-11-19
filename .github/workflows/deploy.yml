@@ -42,6 +42,7 @@ jobs:
           rm -rf ./source/.git
           rm -rf ./source/.github
           rm -rf ./_config.yml
+          ls ./source/
           mv ./source/_config.stellar.yml ./
           mv ./source/_config.site.yml ./_config.yml
 
